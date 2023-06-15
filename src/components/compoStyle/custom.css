@@ -1,0 +1,423 @@
+.navbar-brand img{
+    width: 80px;
+    height: 50px;
+}
+.gif-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container-fluid{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.log-dropdown{
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+
+}
+
+.ProfileImage{
+    width: 70%;
+    border-radius: 25px;
+}
+
+.log-hover::after{
+    content: "";
+    position: absolute;
+    background-image: -webkit-linear-gradient(45deg, #766dff 0%, #88f3ff 100%) !important;
+    /* background-color: #776dff00; */
+    opacity: 70%;
+    height: 3px;
+    width: 0;
+    left: 0; 
+    transition: 0.25s ease-in-out;
+
+}
+
+.log-hover:hover:after{
+    width: 100%;
+    /* background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) !important; */
+
+}
+
+.bg-cl{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+#navbarSupportedContent ul li {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    margin-right: 20px !important;
+}
+
+.dropdown-pro{
+    margin-right: 50px !important;
+}
+
+.navbar-nav a.active{
+    text-decoration: none;
+    font-weight: 500 !important;
+    color: rgb(165, 120, 5) !important;
+}
+.dropdown-list{
+    text-decoration: none;
+    font-weight: 400 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+
+/* .homeContent{
+    border: 2px solid red;
+    padding: 150vh;
+    margin: 10% 0 10% 0;
+    background-color: white;
+    border-radius: 25px;
+} */
+
+
+.container-fluid-home{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.HomeContainer{
+    /* border-radius: 25px; */
+    margin-top: -35rem;
+}
+
+.contact-color{
+    background-color: #070721;
+}
+
+.homeContent {
+    background: linear-gradient(270deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    border-radius: 25px;
+
+
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+
+
+    -webkit-animation: homeBgAnimation 15s ease infinite;
+    -moz-animation: homeBgAnimation 15s ease infinite;
+    animation: homeBgAnimation 15s ease infinite;
+}
+
+@-webkit-keyframes homeBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes homeBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes homeBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.margin-intro{
+    margin: 30% 0 0 0 ;
+}
+
+.margin-about{
+    margin: 10% 0 0 0 ;
+}
+
+.eduheading{
+    font-size: 14px;
+    font-weight: 600;
+}
+.wel-item{
+    border: 1px solid #eeeeee;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.text-bolde{
+    font-weight: 500 !important;
+}
+
+.icon-box{
+    font-size: 25px;
+    color: #12c2e9;
+}
+
+.icon-contact{
+    cursor: pointer !important;
+}
+.icon-contact2{
+    cursor: default;
+}
+
+
+.bar{
+    width: 90%;
+    height: 10px;
+    border: 1px solid rgb(210, 183, 183);
+    border-radius: 5px;
+}
+
+.bardata-color1{
+    background-color: #12c2e9;
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.containercolor{
+    margin: 10% 0 10% 0;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) !important;
+    height: 90vh; 
+}
+
+.experience-item li{
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+.mt-experience{
+    margin-top: 10%;
+}
+
+.list span:before{
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 49%;
+    /* top: 4px; */
+    transform: translateX(-50%);
+}
+
+.data-edu{
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience-item div{
+    font-size: 12px;
+}
+.data-edu .about-edu{
+    margin-left: 90px;
+}
+
+.list:before{
+    content: "";
+    height: 60%;
+    border-radius: 5px;
+    width: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    /* top: -5px; */
+}
+
+.about-edu{
+    flex: 1;
+}
+
+.data-edu .about-edu2{
+    margin-left: 130px;
+}
+
+.btn-light .active {
+    color: #212529;
+    background-color: #f8f9fa;
+    /* border-color: #f8f9fa; */
+    padding: 10px;
+}
+
+
+.contact-item ul li{
+    margin-top: 5%;
+    list-style: none;
+}
+
+.margin-contact{
+    margin-top: 10% !important;
+}
+
+.details-list{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.details-list ul li{
+    list-style: none;
+    color: #263d42;
+
+}
+
+.gmail-deco:hover {
+    text-decoration: none !important;
+    color: #263d42;
+}
+.gmail-deco{
+    text-decoration: none !important;
+    color: #263d42;
+}
+.mailbox-content{
+    /* border: 2px solid red; */
+    border-radius: 6px;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+    visibility: hidden;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+}
+
+.mailbox-open{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1) ;
+    top: 70%;
+}
+.mailbox-close{
+    top: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+.mail-ico-box i{
+    font-size: 45px;
+    color: #766dff;
+
+}
+
+.mail-ico-box{
+    margin-top: -15%;
+    padding: 1rem;
+    border-radius: 50px;
+    border: 1px solid rgb(198, 191, 191);
+    background: white;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+   
+}
+
+.btn-area{
+    display: block;
+    margin-top: 10%;
+}
+
+#text-body{
+    height: 15vh;
+    width: 100%;
+    border-radius: 15px
+}
+
+#subject{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.gmail-deco{
+    text-decoration: none;
+    color: #070721;
+}
+.gmail-deco1{
+    cursor: pointer;
+}
+.gmail-deco:hover{
+    text-decoration: none;
+    color: #070721;
+}
+
+
+/* Resume CSS  */
+
+.shivResrmecont{
+    border: 1px solid #080814bb;
+    background: rgb(239, 225, 225);
+    border-radius: 15px;
+}
+
+.list-group{
+    flex-direction: row !important;
+}
+.text-center{
+    text-align: center !important;
+}
+#myTab .nav-link{
+    padding: 20px;
+}
+
+.col-md-6 .imgclg{
+    width: 100%;
+    border-radius: 15px;
+    margin: 5% 0 5% 0;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+}
+
+.p-main{
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5% 0 5% 0;
+    -webkit-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 45px 0px rgba(0,0,0,0.74);
+
+}
+.tab-pane{
+    background: white;
+    border-radius: 5px;
+}
+
+
+.skillList li{
+    list-style: none;
+    margin: 5% 0 0 0;
+}
+
+/* --------------------------------------------------------------------------------------------------------  */
+.typewritr h1 {
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end) infinite,
+      blink-caret .75s step-end infinite;
+    }
+    
+    /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+/* --------------------------------------------------------------------------------------------------------  */
+
+
+  
+/* Resume CSS  */
